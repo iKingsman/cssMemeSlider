@@ -11,12 +11,12 @@ body {
 }
 
 .container {
-    width: 53.4vw;
+    width: 58vw;
     margin: 7% auto;
 }
 
 .slides {
-    width: 53.4vw;
+    width: 58vw;
     overflow: hidden;
 }
 
@@ -40,7 +40,6 @@ body {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .slider__controls {
@@ -142,4 +141,29 @@ input[type="radio"] {
 #radiobutton-4:checked~.slider__bottom .slider_texts .slider__text-4,
 #radiobutton-5:checked~.slider__bottom .slider_texts .slider__text-5 {
     display: block;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 90vw;
+    }
+    
+    .slides {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider__bottom {
+        flex-direction: column-reverse;
+    }
+
+    .slider__controls {
+        width: 10rem;
+        margin: 0 auto;
+    }
+
+    .slider__controls {
+        margin-bottom: 1rem;
+    }
 }
