@@ -13,20 +13,36 @@
     <section class="slider">
         <div class="container">
             <div class="slides">
+                <input type="radio" name="radiobutton" id="radiobutton-1" checked>
+                <input type="radio" name="radiobutton" id="radiobutton-2">
+                <input type="radio" name="radiobutton" id="radiobutton-3">
+                <input type="radio" name="radiobutton" id="radiobutton-4">
                 <div class="slides__line">
                     <div class="slide">
                         <img src="./assets/images/slide-1.jpg" alt="slide-img">
                     </div>
+                    <div class="slide">
+                        <img src="./assets/images/slide-2.jpg" alt="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/images/slide-3.jpg" alt="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/images/slide-4.jpg" alt="slide-img">
+                    </div>
                 </div>
                 <div class="slider__bottom">
                     <div class="slider_texts">
-                        <p class="slider__text">Senior Dev and Junior Dev</p>
+                        <p class="slider__text slider__text-1">Senior Dev and Junior Dev</p>
+                        <p class="slider__text slider__text-2">Sad reality</p>
+                        <p class="slider__text slider__text-3">Particular set of skills</p>
+                        <p class="slider__text slider__text-4">The two states of every programmers</p>
                     </div>
                     <div class="slider__controls">
-                        <label class="slider__control"></label>
-                        <label class="slider__control"></label>
-                        <label class="slider__control"></label>
-                        <label class="slider__control"></label>
+                        <label for="radiobutton-1" class="slider__control slider__control-1" tabindex="0"><span class="circle"></span></label>
+                        <label for="radiobutton-2" class="slider__control" tabindex="0"><span class="circle"></span></label>
+                        <label for="radiobutton-3" class="slider__control" tabindex="0"><span class="circle"></span></label>
+                        <label for="radiobutton-4" class="slider__control" tabindex="0"><span class="circle"></span></label>
                     </div>
                 </div>
             </div>
