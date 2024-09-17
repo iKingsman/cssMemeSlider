@@ -88,7 +88,7 @@ body {
 .slider__control:focus
 .circle {
     background-color: transparent;
-    border: .15rem solid white;
+    border: .15rem solid #58eb99;
 }
 
 input[type="radio"] {
@@ -135,6 +135,14 @@ input[type="radio"] {
 #radiobutton-2:checked~.slider__bottom .slider__controls .slider__control-2 .circle,
 #radiobutton-3:checked~.slider__bottom .slider__controls .slider__control-3 .circle,
 #radiobutton-4:checked~.slider__bottom .slider__controls .slider__control-4 .circle {
+    background-color: transparent;
+    border: .15rem solid #58eb99;
+}
+
+#radiobutton-1:checked~.slider__bottom .slider__controls .slider__control-1 .circle:hover,
+#radiobutton-2:checked~.slider__bottom .slider__controls .slider__control-2 .circle:hover,
+#radiobutton-3:checked~.slider__bottom .slider__controls .slider__control-3 .circle:hover,
+#radiobutton-4:checked~.slider__bottom .slider__controls .slider__control-4 .circle:hover {
     background-color: transparent;
     border: .15rem solid white;
 }
