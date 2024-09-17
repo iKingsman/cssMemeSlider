@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="slider">
+        <div class="container">
+            <div class="slides">
+                <input type="radio" name="radiobutton" id="radiobutton-1" checked>
+                <input type="radio" name="radiobutton" id="radiobutton-2">
+                <input type="radio" name="radiobutton" id="radiobutton-3">
+                <input type="radio" name="radiobutton" id="radiobutton-4">
+                <div class="slides__line">
+                    <div class="slide">
+                        <img src="./assets/images/slide-1.jpg" alt="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/images/slide-2.jpg" alt="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/images/slide-3.jpg" alt="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/images/slide-4.jpg" alt="slide-img">
+                    </div>
+                </div>
+                <div class="slider__bottom">
+                    <div class="slider_texts">
+                        <p class="slider__text slider__text-1">Senior Dev and Junior Dev</p>
+                        <p class="slider__text slider__text-2">Sad reality</p>
+                        <p class="slider__text slider__text-3">Particular set of skills</p>
+                        <p class="slider__text slider__text-4">The two states of every programmers</p>
+                    </div>
+                    <div class="slider__controls">
+                        <label for="radiobutton-1" class="slider__control slider__control-1" tabindex="0"><span class="circle"></span></label>
+                        <label for="radiobutton-2" class="slider__control slider__control-2" tabindex="0"><span class="circle"></span></label>
+                        <label for="radiobutton-3" class="slider__control slider__control-3" tabindex="0"><span class="circle"></span></label>
+                        <label for="radiobutton-4" class="slider__control slider__control-4" tabindex="0"><span class="circle"></span></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
